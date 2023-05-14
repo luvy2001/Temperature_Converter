@@ -12,6 +12,7 @@ body{
     background-size: 100% 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;  
+    background-position: static;
 }
 
 .wrapper{
@@ -27,9 +28,11 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
 .container{
     width: 45%;
 }
+
 input{
     width: 100%;
     height: 50px;
@@ -39,18 +42,22 @@ input{
     margin-top: 8px;
     padding: 0 10px;
 }
+
 input:focus{
-    border-color: #3164ff;
+    border-color: #ffd631;
 }
 
 .image{
+    position: static;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
+   
 }
-
+/*
 footer{
+    position: static;
     margin-top: 765px;
     text-align: center;
     color: #f5f0f0;
